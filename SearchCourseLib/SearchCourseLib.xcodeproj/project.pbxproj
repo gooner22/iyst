@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD1EBCD1640905500AC0789 /* horsewoman.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC11640905500AC0789 /* horsewoman.txt */; };
+		2DD1EBCE1640905500AC0789 /* incident_matrix.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC21640905500AC0789 /* incident_matrix.txt */; };
+		2DD1EBCF1640905500AC0789 /* peter_pen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC31640905500AC0789 /* peter_pen.txt */; };
+		2DD1EBD01640905500AC0789 /* princess_of_mars.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC41640905500AC0789 /* princess_of_mars.txt */; };
+		2DD1EBD11640905500AC0789 /* private.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC51640905500AC0789 /* private.txt */; };
+		2DD1EBD21640905500AC0789 /* reublic_plato.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC61640905500AC0789 /* reublic_plato.txt */; };
+		2DD1EBD31640905500AC0789 /* the_bible.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC71640905500AC0789 /* the_bible.txt */; };
+		2DD1EBD41640905500AC0789 /* the_prince.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC81640905500AC0789 /* the_prince.txt */; };
+		2DD1EBD51640905500AC0789 /* tom_sawyer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBC91640905500AC0789 /* tom_sawyer.txt */; };
+		2DD1EBD61640905500AC0789 /* virus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBCA1640905500AC0789 /* virus.txt */; };
+		2DD1EBD71640905500AC0789 /* vocabulary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBCB1640905500AC0789 /* vocabulary.txt */; };
+		2DD1EBD81640905500AC0789 /* william.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1EBCC1640905500AC0789 /* william.txt */; };
+		2DD1EBDB16411D3300AC0789 /* CoordinateIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1EBDA16411D3300AC0789 /* CoordinateIndexer.m */; };
+		2DD1EBDC16411D3300AC0789 /* CoordinateIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1EBDA16411D3300AC0789 /* CoordinateIndexer.m */; };
+		2DD1EBDF1641212300AC0789 /* CoordinateIndexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1EBDE1641212300AC0789 /* CoordinateIndexerTests.m */; };
+		2DDDB675164052ED00DCD5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDDB674164052ED00DCD5AA /* Foundation.framework */; };
+		2DDDB67A164052ED00DCD5AA /* SearchCourseLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DDDB679164052ED00DCD5AA /* SearchCourseLib.h */; };
+		2DDDB67C164052ED00DCD5AA /* SearchCourseLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB67B164052ED00DCD5AA /* SearchCourseLib.m */; };
+		2DDDB684164052ED00DCD5AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDDB683164052ED00DCD5AA /* SenTestingKit.framework */; };
+		2DDDB686164052ED00DCD5AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDDB685164052ED00DCD5AA /* UIKit.framework */; };
+		2DDDB687164052ED00DCD5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDDB674164052ED00DCD5AA /* Foundation.framework */; };
+		2DDDB68A164052ED00DCD5AA /* libSearchCourseLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDDB671164052ED00DCD5AA /* libSearchCourseLib.a */; };
+		2DDDB690164052ED00DCD5AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DDDB68E164052ED00DCD5AA /* InfoPlist.strings */; };
+		2DDDB693164052ED00DCD5AA /* SearchCourseLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB692164052ED00DCD5AA /* SearchCourseLibTests.m */; };
+		2DDDB69E1640536900DCD5AA /* DoubleIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB69D1640536900DCD5AA /* DoubleIndexer.m */; };
+		2DDDB69F1640536900DCD5AA /* DoubleIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB69D1640536900DCD5AA /* DoubleIndexer.m */; };
+		2DDDB6A21640538400DCD5AA /* DoubleIndexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6A11640538400DCD5AA /* DoubleIndexerTests.m */; };
+		2DDDB6A91640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6A81640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m */; };
+		2DDDB6AA1640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6A81640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m */; };
+		2DDDB6AD16405A0300DCD5AA /* StuffStripperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6AC16405A0300DCD5AA /* StuffStripperTests.m */; };
+		2DDDB6B01640786000DCD5AA /* NSArray+Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6AF1640786000DCD5AA /* NSArray+Tag.m */; };
+		2DDDB6B11640786000DCD5AA /* NSArray+Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6AF1640786000DCD5AA /* NSArray+Tag.m */; };
+		2DDDB6B41640875300DCD5AA /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6B31640875300DCD5AA /* Utils.m */; };
+		2DDDB6B51640875300DCD5AA /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDB6B31640875300DCD5AA /* Utils.m */; };
+		2DE2440F164A4D5A0032E1B4 /* BSBI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2440E164A4D5A0032E1B4 /* BSBI.m */; };
+		2DE24410164A4D5A0032E1B4 /* BSBI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2440E164A4D5A0032E1B4 /* BSBI.m */; };
+		2DE24414164A59A90032E1B4 /* BSBITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE24413164A59A90032E1B4 /* BSBITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDDB688164052ED00DCD5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DDDB668164052ED00DCD5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDDB670164052ED00DCD5AA;
+			remoteInfo = SearchCourseLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DDDB66F164052ED00DCD5AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				2DDDB67A164052ED00DCD5AA /* SearchCourseLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DD1EBC11640905500AC0789 /* horsewoman.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horsewoman.txt; sourceTree = "<group>"; };
+		2DD1EBC21640905500AC0789 /* incident_matrix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = incident_matrix.txt; sourceTree = "<group>"; };
+		2DD1EBC31640905500AC0789 /* peter_pen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = peter_pen.txt; sourceTree = "<group>"; };
+		2DD1EBC41640905500AC0789 /* princess_of_mars.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = princess_of_mars.txt; sourceTree = "<group>"; };
+		2DD1EBC51640905500AC0789 /* private.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.txt; sourceTree = "<group>"; };
+		2DD1EBC61640905500AC0789 /* reublic_plato.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reublic_plato.txt; sourceTree = "<group>"; };
+		2DD1EBC71640905500AC0789 /* the_bible.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = the_bible.txt; sourceTree = "<group>"; };
+		2DD1EBC81640905500AC0789 /* the_prince.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = the_prince.txt; sourceTree = "<group>"; };
+		2DD1EBC91640905500AC0789 /* tom_sawyer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tom_sawyer.txt; sourceTree = "<group>"; };
+		2DD1EBCA1640905500AC0789 /* virus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = virus.txt; sourceTree = "<group>"; };
+		2DD1EBCB1640905500AC0789 /* vocabulary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vocabulary.txt; sourceTree = "<group>"; };
+		2DD1EBCC1640905500AC0789 /* william.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = william.txt; sourceTree = "<group>"; };
+		2DD1EBD916411D3300AC0789 /* CoordinateIndexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateIndexer.h; sourceTree = "<group>"; };
+		2DD1EBDA16411D3300AC0789 /* CoordinateIndexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateIndexer.m; sourceTree = "<group>"; };
+		2DD1EBDD1641212200AC0789 /* CoordinateIndexerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateIndexerTests.h; sourceTree = "<group>"; };
+		2DD1EBDE1641212300AC0789 /* CoordinateIndexerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateIndexerTests.m; sourceTree = "<group>"; };
+		2DDDB671164052ED00DCD5AA /* libSearchCourseLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSearchCourseLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDDB674164052ED00DCD5AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DDDB678164052ED00DCD5AA /* SearchCourseLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchCourseLib-Prefix.pch"; sourceTree = "<group>"; };
+		2DDDB679164052ED00DCD5AA /* SearchCourseLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchCourseLib.h; sourceTree = "<group>"; };
+		2DDDB67B164052ED00DCD5AA /* SearchCourseLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchCourseLib.m; sourceTree = "<group>"; };
+		2DDDB682164052ED00DCD5AA /* SearchCourseLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchCourseLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDDB683164052ED00DCD5AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DDDB685164052ED00DCD5AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DDDB68D164052ED00DCD5AA /* SearchCourseLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchCourseLibTests-Info.plist"; sourceTree = "<group>"; };
+		2DDDB68F164052ED00DCD5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DDDB691164052ED00DCD5AA /* SearchCourseLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchCourseLibTests.h; sourceTree = "<group>"; };
+		2DDDB692164052ED00DCD5AA /* SearchCourseLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchCourseLibTests.m; sourceTree = "<group>"; };
+		2DDDB69C1640536900DCD5AA /* DoubleIndexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleIndexer.h; sourceTree = "<group>"; };
+		2DDDB69D1640536900DCD5AA /* DoubleIndexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleIndexer.m; sourceTree = "<group>"; };
+		2DDDB6A01640538400DCD5AA /* DoubleIndexerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleIndexerTests.h; sourceTree = "<group>"; };
+		2DDDB6A11640538400DCD5AA /* DoubleIndexerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleIndexerTests.m; sourceTree = "<group>"; };
+		2DDDB6A71640594200DCD5AA /* NSMutableString+StringSymbolsStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+StringSymbolsStripper.h"; sourceTree = "<group>"; };
+		2DDDB6A81640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+StringSymbolsStripper.m"; sourceTree = "<group>"; };
+		2DDDB6AB16405A0300DCD5AA /* StuffStripperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StuffStripperTests.h; sourceTree = "<group>"; };
+		2DDDB6AC16405A0300DCD5AA /* StuffStripperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffStripperTests.m; sourceTree = "<group>"; };
+		2DDDB6AE1640786000DCD5AA /* NSArray+Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Tag.h"; sourceTree = "<group>"; };
+		2DDDB6AF1640786000DCD5AA /* NSArray+Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Tag.m"; sourceTree = "<group>"; };
+		2DDDB6B21640875300DCD5AA /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		2DDDB6B31640875300DCD5AA /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		2DE2440D164A4D590032E1B4 /* BSBI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBI.h; sourceTree = "<group>"; };
+		2DE2440E164A4D5A0032E1B4 /* BSBI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBI.m; sourceTree = "<group>"; };
+		2DE24412164A59A90032E1B4 /* BSBITests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBITests.h; sourceTree = "<group>"; };
+		2DE24413164A59A90032E1B4 /* BSBITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DDDB66E164052ED00DCD5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDDB675164052ED00DCD5AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDDB67E164052ED00DCD5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDDB684164052ED00DCD5AA /* SenTestingKit.framework in Frameworks */,
+				2DDDB686164052ED00DCD5AA /* UIKit.framework in Frameworks */,
+				2DDDB687164052ED00DCD5AA /* Foundation.framework in Frameworks */,
+				2DDDB68A164052ED00DCD5AA /* libSearchCourseLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD1EBC01640905500AC0789 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1EBC11640905500AC0789 /* horsewoman.txt */,
+				2DD1EBC21640905500AC0789 /* incident_matrix.txt */,
+				2DD1EBC31640905500AC0789 /* peter_pen.txt */,
+				2DD1EBC41640905500AC0789 /* princess_of_mars.txt */,
+				2DD1EBC51640905500AC0789 /* private.txt */,
+				2DD1EBC61640905500AC0789 /* reublic_plato.txt */,
+				2DD1EBC71640905500AC0789 /* the_bible.txt */,
+				2DD1EBC81640905500AC0789 /* the_prince.txt */,
+				2DD1EBC91640905500AC0789 /* tom_sawyer.txt */,
+				2DD1EBCA1640905500AC0789 /* virus.txt */,
+				2DD1EBCB1640905500AC0789 /* vocabulary.txt */,
+				2DD1EBCC1640905500AC0789 /* william.txt */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		2DDDB666164052ED00DCD5AA = {
+			isa = PBXGroup;
+			children = (
+				2DDDB676164052ED00DCD5AA /* SearchCourseLib */,
+				2DDDB68B164052ED00DCD5AA /* SearchCourseLibTests */,
+				2DDDB673164052ED00DCD5AA /* Frameworks */,
+				2DDDB672164052ED00DCD5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DDDB672164052ED00DCD5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DDDB671164052ED00DCD5AA /* libSearchCourseLib.a */,
+				2DDDB682164052ED00DCD5AA /* SearchCourseLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DDDB673164052ED00DCD5AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DDDB674164052ED00DCD5AA /* Foundation.framework */,
+				2DDDB683164052ED00DCD5AA /* SenTestingKit.framework */,
+				2DDDB685164052ED00DCD5AA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DDDB676164052ED00DCD5AA /* SearchCourseLib */ = {
+			isa = PBXGroup;
+			children = (
+				2DDDB679164052ED00DCD5AA /* SearchCourseLib.h */,
+				2DDDB67B164052ED00DCD5AA /* SearchCourseLib.m */,
+				2DDDB69C1640536900DCD5AA /* DoubleIndexer.h */,
+				2DDDB69D1640536900DCD5AA /* DoubleIndexer.m */,
+				2DD1EBD916411D3300AC0789 /* CoordinateIndexer.h */,
+				2DD1EBDA16411D3300AC0789 /* CoordinateIndexer.m */,
+				2DDDB6AE1640786000DCD5AA /* NSArray+Tag.h */,
+				2DDDB6AF1640786000DCD5AA /* NSArray+Tag.m */,
+				2DDDB6A71640594200DCD5AA /* NSMutableString+StringSymbolsStripper.h */,
+				2DDDB6A81640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m */,
+				2DE2440D164A4D590032E1B4 /* BSBI.h */,
+				2DE2440E164A4D5A0032E1B4 /* BSBI.m */,
+				2DDDB6B21640875300DCD5AA /* Utils.h */,
+				2DDDB6B31640875300DCD5AA /* Utils.m */,
+				2DDDB677164052ED00DCD5AA /* Supporting Files */,
+			);
+			path = SearchCourseLib;
+			sourceTree = "<group>";
+		};
+		2DDDB677164052ED00DCD5AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DDDB678164052ED00DCD5AA /* SearchCourseLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DDDB68B164052ED00DCD5AA /* SearchCourseLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DDDB691164052ED00DCD5AA /* SearchCourseLibTests.h */,
+				2DDDB692164052ED00DCD5AA /* SearchCourseLibTests.m */,
+				2DDDB68C164052ED00DCD5AA /* Supporting Files */,
+				2DDDB6A01640538400DCD5AA /* DoubleIndexerTests.h */,
+				2DDDB6A11640538400DCD5AA /* DoubleIndexerTests.m */,
+				2DD1EBDD1641212200AC0789 /* CoordinateIndexerTests.h */,
+				2DD1EBDE1641212300AC0789 /* CoordinateIndexerTests.m */,
+				2DE24412164A59A90032E1B4 /* BSBITests.h */,
+				2DE24413164A59A90032E1B4 /* BSBITests.m */,
+				2DDDB6AB16405A0300DCD5AA /* StuffStripperTests.h */,
+				2DDDB6AC16405A0300DCD5AA /* StuffStripperTests.m */,
+			);
+			path = SearchCourseLibTests;
+			sourceTree = "<group>";
+		};
+		2DDDB68C164052ED00DCD5AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1EBC01640905500AC0789 /* files */,
+				2DDDB68D164052ED00DCD5AA /* SearchCourseLibTests-Info.plist */,
+				2DDDB68E164052ED00DCD5AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DDDB670164052ED00DCD5AA /* SearchCourseLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDDB696164052ED00DCD5AA /* Build configuration list for PBXNativeTarget "SearchCourseLib" */;
+			buildPhases = (
+				2DDDB66D164052ED00DCD5AA /* Sources */,
+				2DDDB66E164052ED00DCD5AA /* Frameworks */,
+				2DDDB66F164052ED00DCD5AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchCourseLib;
+			productName = SearchCourseLib;
+			productReference = 2DDDB671164052ED00DCD5AA /* libSearchCourseLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2DDDB681164052ED00DCD5AA /* SearchCourseLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDDB699164052ED00DCD5AA /* Build configuration list for PBXNativeTarget "SearchCourseLibTests" */;
+			buildPhases = (
+				2DDDB67D164052ED00DCD5AA /* Sources */,
+				2DDDB67E164052ED00DCD5AA /* Frameworks */,
+				2DDDB67F164052ED00DCD5AA /* Resources */,
+				2DDDB680164052ED00DCD5AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DDDB689164052ED00DCD5AA /* PBXTargetDependency */,
+			);
+			name = SearchCourseLibTests;
+			productName = SearchCourseLibTests;
+			productReference = 2DDDB682164052ED00DCD5AA /* SearchCourseLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DDDB668164052ED00DCD5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Maksym Hontar";
+			};
+			buildConfigurationList = 2DDDB66B164052ED00DCD5AA /* Build configuration list for PBXProject "SearchCourseLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DDDB666164052ED00DCD5AA;
+			productRefGroup = 2DDDB672164052ED00DCD5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DDDB670164052ED00DCD5AA /* SearchCourseLib */,
+				2DDDB681164052ED00DCD5AA /* SearchCourseLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DDDB67F164052ED00DCD5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDDB690164052ED00DCD5AA /* InfoPlist.strings in Resources */,
+				2DD1EBCD1640905500AC0789 /* horsewoman.txt in Resources */,
+				2DD1EBCE1640905500AC0789 /* incident_matrix.txt in Resources */,
+				2DD1EBCF1640905500AC0789 /* peter_pen.txt in Resources */,
+				2DD1EBD01640905500AC0789 /* princess_of_mars.txt in Resources */,
+				2DD1EBD11640905500AC0789 /* private.txt in Resources */,
+				2DD1EBD21640905500AC0789 /* reublic_plato.txt in Resources */,
+				2DD1EBD31640905500AC0789 /* the_bible.txt in Resources */,
+				2DD1EBD41640905500AC0789 /* the_prince.txt in Resources */,
+				2DD1EBD51640905500AC0789 /* tom_sawyer.txt in Resources */,
+				2DD1EBD61640905500AC0789 /* virus.txt in Resources */,
+				2DD1EBD71640905500AC0789 /* vocabulary.txt in Resources */,
+				2DD1EBD81640905500AC0789 /* william.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDDB680164052ED00DCD5AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DDDB66D164052ED00DCD5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDDB67C164052ED00DCD5AA /* SearchCourseLib.m in Sources */,
+				2DDDB69E1640536900DCD5AA /* DoubleIndexer.m in Sources */,
+				2DDDB6A91640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m in Sources */,
+				2DDDB6B01640786000DCD5AA /* NSArray+Tag.m in Sources */,
+				2DDDB6B41640875300DCD5AA /* Utils.m in Sources */,
+				2DD1EBDB16411D3300AC0789 /* CoordinateIndexer.m in Sources */,
+				2DE2440F164A4D5A0032E1B4 /* BSBI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDDB67D164052ED00DCD5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDDB693164052ED00DCD5AA /* SearchCourseLibTests.m in Sources */,
+				2DDDB69F1640536900DCD5AA /* DoubleIndexer.m in Sources */,
+				2DDDB6A21640538400DCD5AA /* DoubleIndexerTests.m in Sources */,
+				2DDDB6AA1640594200DCD5AA /* NSMutableString+StringSymbolsStripper.m in Sources */,
+				2DDDB6AD16405A0300DCD5AA /* StuffStripperTests.m in Sources */,
+				2DDDB6B11640786000DCD5AA /* NSArray+Tag.m in Sources */,
+				2DDDB6B51640875300DCD5AA /* Utils.m in Sources */,
+				2DD1EBDC16411D3300AC0789 /* CoordinateIndexer.m in Sources */,
+				2DD1EBDF1641212300AC0789 /* CoordinateIndexerTests.m in Sources */,
+				2DE24410164A4D5A0032E1B4 /* BSBI.m in Sources */,
+				2DE24414164A59A90032E1B4 /* BSBITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DDDB689164052ED00DCD5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDDB670164052ED00DCD5AA /* SearchCourseLib */;
+			targetProxy = 2DDDB688164052ED00DCD5AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DDDB68E164052ED00DCD5AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDDB68F164052ED00DCD5AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DDDB694164052ED00DCD5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DDDB695164052ED00DCD5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DDDB697164052ED00DCD5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SearchCourseLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchCourseLib/SearchCourseLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DDDB698164052ED00DCD5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SearchCourseLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchCourseLib/SearchCourseLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2DDDB69A164052ED00DCD5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchCourseLib/SearchCourseLib-Prefix.pch";
+				INFOPLIST_FILE = "SearchCourseLibTests/SearchCourseLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2DDDB69B164052ED00DCD5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchCourseLib/SearchCourseLib-Prefix.pch";
+				INFOPLIST_FILE = "SearchCourseLibTests/SearchCourseLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DDDB66B164052ED00DCD5AA /* Build configuration list for PBXProject "SearchCourseLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDDB694164052ED00DCD5AA /* Debug */,
+				2DDDB695164052ED00DCD5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDDB696164052ED00DCD5AA /* Build configuration list for PBXNativeTarget "SearchCourseLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDDB697164052ED00DCD5AA /* Debug */,
+				2DDDB698164052ED00DCD5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDDB699164052ED00DCD5AA /* Build configuration list for PBXNativeTarget "SearchCourseLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDDB69A164052ED00DCD5AA /* Debug */,
+				2DDDB69B164052ED00DCD5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DDDB668164052ED00DCD5AA /* Project object */;
+}
