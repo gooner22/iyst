@@ -5,7 +5,8 @@
 //  Created by Maksym Hontar on 31.10.12.
 //  Copyright (c) 2012 Maksym Hontar. All rights reserved.
 //
-// asd
+// lol
+
 #import <Foundation/Foundation.h>
 
 @interface CoordinateIndexer : NSObject
